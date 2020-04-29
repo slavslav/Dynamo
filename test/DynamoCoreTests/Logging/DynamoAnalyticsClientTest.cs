@@ -16,6 +16,7 @@ using System.Linq;
 namespace Dynamo.Tests.Loggings
 {
     [TestFixture]
+    [Ignore]
     class DynamoAnalyticsClientTest : DynamoModelTestBase
     {
         private const string DEFAULT_RETURN_VALUE = "Default Not Found";

@@ -17,6 +17,7 @@ using TestServices;
 namespace Dynamo.Tests.Loggings
 {
     [TestFixture]
+    [Ignore]
     class AnalyticsServiceTest : DynamoModelTestBase
     {
         //We need to override this function because the one in DynamoModelTestBase is setting StartInTestMode = true

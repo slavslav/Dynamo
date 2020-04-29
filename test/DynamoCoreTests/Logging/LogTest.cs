@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 namespace Dynamo.Tests.Loggings
 {
     [TestFixture]
+    [Ignore]
     class LogTest : DynamoModelTestBase
     {
         public string UserId = GetUserID();
