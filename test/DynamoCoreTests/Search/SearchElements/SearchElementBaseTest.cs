@@ -32,6 +32,7 @@ namespace Dynamo.Tests.Search.SearchElements
             //Assert
             Assert.AreEqual(searchElement.CreationName,"Foo");//This will execute the Get method of the CreationName property
             Assert.IsTrue(bExecuted);//This just validates that the Execute event was raised
+            searchElement.Executed -= SearchElement_Executed;
         }
 
         //This method will be execute then the OnExecute() event is called.
