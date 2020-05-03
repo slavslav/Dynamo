@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{A55F22D1-13D4-4812-A2A5-9A07BEC94946}</ProjectGuid>
     <OutputType>Library</OutputType>
-	<OutputPath Condition=" '$(OutputPath)' == '' ">$(SolutionDir)..\..\bin\$(Platform)\$(Configuration)</OutputPath>
+    <OutputPath Condition=" '$(OutputPath)' == '' ">$(SolutionDir)..\..\bin\$(Platform)\$(Configuration)</OutputPath>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Dynamo</RootNamespace>
     <AssemblyName>CBNLanguageCompareTests</AssemblyName>
@@ -30,7 +30,7 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
     <Prefer32Bit>false</Prefer32Bit>
-    <IntermediateOutputPath>C:\Users\prabhum\AppData\Local\Temp\vsE9AE.tmp\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\tassi\AppData\Local\Temp\vsF5A1.tmp\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
@@ -41,7 +41,7 @@
     <WarningLevel>4</WarningLevel>
     <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
     <Prefer32Bit>false</Prefer32Bit>
-    <IntermediateOutputPath>C:\Users\prabhum\AppData\Local\Temp\vsE9AE.tmp\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\tassi\AppData\Local\Temp\vsF5A1.tmp\Release\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CoreNodeModels, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
